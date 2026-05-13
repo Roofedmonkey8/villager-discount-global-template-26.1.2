@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.roofedmonkey8.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"VillagerMixin",
+		"GossipTypeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
