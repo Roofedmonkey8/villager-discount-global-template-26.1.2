@@ -20,7 +20,7 @@ import java.util.UUID;
 @Mixin(net.minecraft.world.entity.npc.villager.Villager.class)
 public class VillagerMixin {
 	
-	private static final UUID FAKE_UUID = UUID.fromString("00000000-0000-0000-0000-000000000001");
+	private static final UUID FAKE_UUID = UUID.fromString("c2795f72-10ea-487b-be27-e55ade0ab522");
   @Shadow
     private GossipContainer gossips;
 
